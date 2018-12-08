@@ -2,6 +2,7 @@ name:               "Manjeet Dahiya"
 
 baseurl:            ""
 permalink:          /:year/:month/:day/:title/
+permalink:          /:collection/:title/
 
 markdown:           kramdown
 
