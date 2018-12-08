@@ -1,0 +1,10 @@
+name:               "Manjeet Dahiya"
+
+baseurl:            ""
+permalink:          /:year/:month/:day/:title/
+
+markdown:           kramdown
+
+sass:
+  style:            :compressed
+
