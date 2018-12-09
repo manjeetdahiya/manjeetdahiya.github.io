@@ -48,15 +48,15 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-  font-size: 2rem;
-}
-
-h2 {
   font-size: 1.6rem;
 }
 
-h3 {
+h2 {
   font-size: 1.3rem;
+}
+
+h3 {
+  font-size: 1.1rem;
 }
 
 h4, h5, h6 {
@@ -269,7 +269,7 @@ tbody tr:nth-child(odd) th {
 
   &-title {
     font-weight: 600;
-    font-size: 45px;
+    font-size: 35px;
 
     a {
       color: #333;
@@ -283,7 +283,7 @@ tbody tr:nth-child(odd) th {
     span {
       color: #ddd;
     font-weight: 300;
-    font-size: 40px;
+    font-size: 30px;
     }
 
   }
