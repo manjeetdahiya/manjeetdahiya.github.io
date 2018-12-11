@@ -1,28 +1,19 @@
 ---
-layout: default
+layout: page
 ---
-<header class="masthead">
-  <h1 class="masthead-title">
-      <a href="{{ site.baseurl }}/">{{ site.name }}<span> notes</span></a>
-  </h1>
-  <nav class="masthead-nav">
-    {% for nav in site.data.navigation %}
-    <a href="{{ nav.link }}">{{ nav.name }}</a>
-    {% endfor %}
-  </nav>
-</header>
 <div class="content list">
 {% if site.posts.size == 0 %}
   <h2>No post found</h2>
 {% else %}
 {% for post in site.posts %}
   <div class="list-item">
-    <h2 class="list-post-title">
+    <h3 class="list-post-title">
       <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
-    </h2>
+    </h3>
     <div class="list-post-date">
       <time>{{ post.date | date_to_string }}</time>
     </div>
+    <!-- <p>{{ post.excerpt }}</p> -->
   </div>
 {% endfor %}
 {% endif %}

@@ -1,9 +1,6 @@
 ---
-layout: default
+layout: page
 title: About
 ---
-# About page
 
-This page tells you a little bit about me.
-
-
+[My other homepage](http://www.cse.iitd.ernet.in/~dahiya)
