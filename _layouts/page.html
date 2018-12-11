@@ -7,7 +7,9 @@ layout: default
   </h1>
   <nav class="masthead-nav">
     {% for nav in site.data.navigation %}
-    <a href="{{ nav.link }}">{{ nav.name }}</a>
+    <a href="{{ nav.link }}" {% if page.url == nav.link %} style="color: #333;"{% endif %}>
+      {{ nav.name }}
+    </a>
     {% endfor %}
   </nav>
 </header>
