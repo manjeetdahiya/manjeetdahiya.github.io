@@ -7,5 +7,5 @@ permalink:          /:collection/:title/
 markdown:           kramdown
 
 sass:
-  style:            :compressed
+    #style:            :compressed
 
