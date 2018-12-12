@@ -50,6 +50,6 @@ with the interpretation of the probability,
 it does not matter how one interprets the probability, the theorem remains the same.
 
 ### Conclusion
-In summary, there are multiple interpretations different of probability,
+In summary, there are multiple different interpretations of probability,
 and no single interpretation can explain all the observations.
-Fortunately, however, the choice of interpretation does not impact the the calculus of probability.
+Fortunately however, the choice of interpretation does not impact the the calculus of probability.
