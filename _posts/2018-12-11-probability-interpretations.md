@@ -34,8 +34,8 @@ For example, a coin toss can have only two outcomes head or tail,
 and the both the outcomes are equally likely to occur.
 Hence, it the probability of occurrence of head is 50%, which is also the case for tail.
 
-Evidently, a particular interpretation cannot be used to explain all kind of observations and
-the different interpretations are not even compatible.
+Evidently, a particular interpretation cannot be used to explain all kind of observations,
+moreover, the different interpretations are not even compatible with each other.
 For example, the frequency interpretation cannot be applied for describing the probability of
 raining and the classical interpretation is limited by its assumption of *equaly likely outcomes*.
 Important point to note is that no single interpretation can explain all the scenarios, 
