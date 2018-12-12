@@ -48,3 +48,8 @@ No matter, which interpretation is chosen, the calculus of probability theory re
 For example, the Bayes' theorem does not concern itself 
 with the interpretation of the probability, 
 it does not matter how one interprets the probability, the theorem remains the same.
+
+### Conclusion
+In summary, there are multiple interpretations different of probability,
+and no single interpretation can explain all the observations.
+Fortunately, however, the choice of interpretation does not impact the the calculus of probability.
