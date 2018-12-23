@@ -3,7 +3,7 @@ layout: post
 title: A Drunkard can Help Estimate the Value of Pi
 ---
 
-Monte Carlo methods with direct sampling help us reason about probabilistic 
+Monte Carlo method with direct sampling helps us reason about probabilistic 
 systems. The method is straightforward, 
 we generate a sample input based on the respective probability distribution
 and analyze the output appropriately.
