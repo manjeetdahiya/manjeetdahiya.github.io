@@ -9,6 +9,20 @@ markdown:           kramdown
 sass:
     #style:            :compressed
 
+# seo tags
+url:    "manjeetdahiya.com"
+author: "Manjeet Dahiya"
+twitter:
+  username: manjeetdahiya
+
+social:
+  name: Manjeet Dahiya
+  links:
+    - https://twitter.com/manjeetdahiya
+    - https://www.facebook.com/manjeetdahiya
+    - https://www.linkedin.com/in/manjeetdahiya
+    - https://github.com/manjeetdahiya
+
 plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
