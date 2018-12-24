@@ -10,11 +10,11 @@ and analyze the output appropriately.
 However, there are situations when direct sampling is not feasible and
 the method cannot be applied off-the-shelf.
 For example, a case when the probability distribution of the inputs is not available. 
-Though, we are given certain rules to iterate over the sample space, e.g., a random walk, and we need to
+But, we are given certain rules to iterate over the sample space, e.g., a random walk, and we need to
 estimate the desired properties using the same.
 
 Consider an example of a drunkard who keeps walking randomly. 
-The drunkard at any position takes a step in a random direction of fixed length, and
+The drunkard at any position takes a step in a random direction of fixed length and
 keeps repeating the same.
 Note that we are not given the distribution of his path, however, we are given the rules
 to compute the probability of his next step.
@@ -61,9 +61,9 @@ Following are the three values that I got by the running the program three times
 3.121184, 3.141716, 3.137896. Note that values are close to the value of pi.
 Increasing the value of N results in the values closer to the value of pi.
 
-The reader must be curious why does this scheme work. What kind of sampling does 
+The reader must be curious, why does this scheme work. What kind of sampling does 
 the random walk generate? Why does increasing the value of N result in
 a better estimate of pi? Why does the value converges to pi?
 I plan to note down all the ideas involved, and finally, answer all the questions
 raised.
-Stick to this space for detailed answers!
+Stick to this space for the detailed answers!
