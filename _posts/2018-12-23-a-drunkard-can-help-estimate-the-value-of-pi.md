@@ -23,7 +23,7 @@ A markov chain describes a sequence of stochastic events where the probability o
 the next event is *only* dependent on the current state.
 
 Let us conduct an experiment with the drunkard's random walk.
-We take a 2x2 square bounding a circle of radius 1 centered at (0, 0).
+We take a 2x2 square bounding a circle of radius 1 centred at (0, 0).
 We let the drunkard move in the square starting from (-1, -1), and at each step,
 we count the number of times the drunkard lies in the circle (points_in).
 For a fairly large number of steps (N), the value (4*points_in/N) starts 
@@ -63,7 +63,7 @@ Increasing the value of N results in the values closer to the value of pi.
 
 The reader must be curious, why does this scheme work. What kind of sampling does 
 the random walk generate? Why does increasing the value of N result in
-a better estimate of pi? Why does the value converges to pi?
+a better estimate of pi? Why does the value converge to pi?
 I plan to note down all the ideas involved, and finally, answer all the questions
 raised.
 Stick to this space for the detailed answers!
