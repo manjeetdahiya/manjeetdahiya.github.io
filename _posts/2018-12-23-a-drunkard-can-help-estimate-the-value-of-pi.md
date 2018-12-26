@@ -16,10 +16,12 @@ estimate the desired properties using the same.
 Consider an example of a drunkard who keeps walking randomly. 
 The drunkard at any position takes a step in a random direction of fixed length and
 keeps repeating the same.
-Note that we are not given the distribution of his path, however, we are given the rules
+This is in contrast with the example of my other post on 
+[Monte Carlo methods]({{ site.baseurl }}{% post_url 2018-12-22-monte-carlo-methods %}).
+Note that we are not given the distribution of the points he visits, however, we are given the rules
 to compute the probability of his next step.
 These random walks are formally called Markov chains. 
-A markov chain describes a sequence of stochastic events where the probability of
+A Markov chain describes a sequence of stochastic events where the probability of
 the next event is *only* dependent on the current state.
 
 Let us conduct an experiment with the drunkard's random walk.
