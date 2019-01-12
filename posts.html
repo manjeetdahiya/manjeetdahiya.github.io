@@ -2,6 +2,8 @@
 layout: page
 title: Posts
 ---
+<p style="color: #aaa; font-weight: 300; font-size: 1.05rem">Articles:</p>
+
 <div class="content list">
 {% if site.posts.size == 0 %}
   <h2>No post found</h2>
@@ -19,3 +21,24 @@ title: Posts
 {% endfor %}
 {% endif %}
 </div>
+
+<p style="color: #aaa; font-weight: 300; font-size: 1.05rem">Notes and cheats:</p>
+
+<div class="content list">
+  {% if site.posts.size == 0 %}
+    <h2>No note found</h2>
+  {% else %}
+  {% for post in site.notes %}
+    <div class="list-item">
+      <h3 class="list-post-title">
+        <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+      </h3>
+      <!-- <div class="list-post-date">
+        <time>{{ post.date | date_to_string }}</time>
+      </div> -->
+      <!-- <p>{{ post.excerpt }}</p> -->
+    </div>
+  {% endfor %}
+  {% endif %}
+  </div>
+  

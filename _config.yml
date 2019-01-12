@@ -23,6 +23,11 @@ social:
     - https://www.linkedin.com/in/manjeetdahiya
     - https://github.com/manjeetdahiya
 
+collections:
+  notes:
+    output: true
+    permalink: /:collection/:title
+
 plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
