@@ -1,6 +1,6 @@
 - name: Home
   link: /
-- name: Notes
+- name: Posts
   link: /posts/
   #- name: Research
   #  link: /research
