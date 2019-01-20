@@ -8,7 +8,7 @@ this post presents the mathematical definition of probability.
 The calculus of probability is built on three axioms, also called the Kolmogorov axioms.
 Related terminology is presented first, followed by the axioms and the definition.
 
-## Terminology: Experiments, Sample space, Outcomes and Events
+### Terminology: Experiments, Sample space, Outcomes and Events
 
 An experiment under study is a process, real or hypothetical, with one or more *outcomes*, i.e., observable results.
 All possible outcomes of the process are known in advance and is called the *sample space* of the experiment.
@@ -27,7 +27,7 @@ Clearly, an event is a subset of the sample space. For example:
 * Negative number is obtained: $C = \{\}$, usually denoted as $\phi$. Empty set is also an event.
 * Sample space ($S$) in itself is also an event.
 
-## The axiomatic/mathematical definition of probability
+### The axiomatic/mathematical definition of probability
 Our goal is to assign a probability value to the different events of an experiment.
 The probability of event A is represented as $Pr(A)$. 
 We first start with stating the three axioms of the framework of probability 
@@ -49,7 +49,7 @@ for all events $A$ that satisfy the three axioms of probability.
 * $A \subset B \Rightarrow Pr(A) \le Pr(B)$
 * $Pr(A \cup B) = Pr(A) + Pr(B) - Pr(A \cap B)$
 
-#### Calculating probability
+### Calculating probability
 The probability of an event of an experiment can be computed by using the axioms 
 and certain properties of the outcomes.
 For example, an experiment is said to have a *simple sample space* 
