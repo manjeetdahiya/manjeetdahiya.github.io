@@ -92,6 +92,9 @@ This command is equivalent to following two commands:
 ### Reset local staged changes
 ```git reset```
 
+### Reset local staged and unstaged changes
+```git reset --hard```
+
 
 ### Submodule status
 ```git submodule status```
