@@ -2,7 +2,9 @@
 layout: page
 title: Contact
 ---
-firstname[dahiya]@gmail.com
 
+Email: firstname[dahiya]@gmail.com
 
-Manjeet Dahiya
+LinkedIn: [linkedin.com/in/manjeetdahiya](https://www.linkedin.com/in/manjeetdahiya)
+
+Facebook: [facebook.com/manjeetdahiya](https://www.facebook.com/manjeetdahiya)
