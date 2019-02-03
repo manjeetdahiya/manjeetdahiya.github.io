@@ -2,20 +2,20 @@
 layout: post
 title: Markov Chains
 ---
-Markov chains is an interesting topic with applications in multiple disciplines.
-A Markov chain is a stochastic process with a specific property called Markov property.
-This post presents stochastic processes and Markov chains with multiple examples. 
+Markov chains is an interesting concept with applications in multiple disciplines.
+Markov chains are stochastic processes with a specific property called Markov property.
+This post presents stochastic processes and Markov chains with examples. 
 It describes the Markov property and various related characteristics of Markov chains
-like, transition distribution, stationary distribution, 
+like transition distribution, stationary distribution, 
 absorbing states and absorbing Markov chains.
 
 ### Stochastic process
 A stochastic process describes a random phenomenon over time.
-The random phenomenon is modeled as random variables, thus, a stochastic
-process is a sequence of random variables indexed by time.
-These sequence of random variables model the same phenomenon 
-(or state due to the phenomenon), hence,
-they share the domain (state space or sample space) and the range.
+Random variables model the random phenomenon of a stochastic process, 
+thus, a stochastic process is a sequence of random variables indexed by time.
+Since these random variables of a sequence model the same phenomenon, i.e., the state of
+the phenomenon, therefore,
+they share the domain (i.e., the state space) and the range.
 The time index could be discrete or continuous, resulting in discrete-time
 or continuous-time stochastic processes respectively.
 
@@ -26,7 +26,7 @@ based on Bernoulli distribution with its parameter as 0.5.
 A complex example could be some noise in an electric circuit over time, 
 stock market over time, Brownian motion etc.
 
-Formally, a stochastic process is the sequence of random variables 
+Formally, a stochastic process is a sequence of random variables 
 $X_1$, $X_2$, ... $X_t$ representing the states at time $1, 2, ..., t$.
 Further, the initial probability distribution $Pr(X_1)$ and
 the probability distributions of the subsequent states should be specified.
@@ -64,8 +64,8 @@ $$
 The game of snakes and ladder is an example of Markov chains. 
 A player can in one of the hundred states corresponding to the hundred positions on the board.
 The next position, i.e., state is decided by the current state and the roll of the dice.
-Note that the next state is decided by the current state *alone*, it does not matter how the current state
-is attained.
+Note that the next state is decided by the current state *alone*,
+it does not matter how the current state is attained.
 
 Flipping an unbiased coin sixty times for a minute is also an example of a Markov chain. 
 This is called a Bernoulli process, the underlying probability distribution 
@@ -107,7 +107,7 @@ Matrix form of transition distribution (transition matrix) for the grid example:
 
 $$
 P = 
-\begin{bmatrix} 
+\begin{bmatrix}
 p_{11} & p_{12} & p_{13} \\
 p_{21} & p_{22} & p_{23} \\
 p_{31} & p_{32} & p_{33}
