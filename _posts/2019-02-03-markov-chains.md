@@ -4,7 +4,7 @@ title: Markov Chains
 ---
 Markov chains is an interesting concept with applications in several disciplines.
 Markov chains are stochastic processes with a specific property called Markov property.
-This post presents stochastic processes and Markov chains with examples.
+This post presents the definitions of stochastic processes and Markov chains with examples.
 It describes the Markov property and various related characteristics of Markov chains
 like transition distribution, stationary distribution,
 absorbing states and absorbing Markov chains.
@@ -13,18 +13,18 @@ absorbing states and absorbing Markov chains.
 A stochastic process describes a random phenomenon over time.
 Random variables are used to model the random phenomenon of a stochastic process, 
 thus, a stochastic process is a sequence of random variables indexed by time.
-Since these random variables the same phenomenon, i.e., the state of
+Since these random variables model the same phenomenon, i.e., the state of
 the phenomenon, therefore,
 they share the domain (i.e., the state space) and the range.
 The time index could be discrete or continuous, resulting in discrete-time
 or continuous-time stochastic processes respectively.
 
-An example of a stochastic process could as simple as flipping of 
+An example of a stochastic process could be as simple as flipping of 
 an unbiased coin at every second for a minute.
 We can model it as a sequence of sixty independent and identically distributed (iid) random variables
 based on Bernoulli distribution with its parameter as 0.5.
 A complex example could be some noise in an electric circuit over time, 
-stock market over time, Brownian motion etc.
+stock market over time or Brownian motion.
 
 Formally, a stochastic process is a sequence of random variables 
 $X_1$, $X_2$, ... $X_t$ representing the states at time $1, 2, ..., t$.
@@ -62,7 +62,7 @@ $$
 
 #### Examples
 The game of snakes and ladder is an example of Markov chains. 
-A player can in one of the hundred states corresponding to the hundred positions on the board.
+A player can be in one of the hundred states corresponding to the hundred positions on the board.
 The next position, i.e., state is decided by the current state and the roll of the dice.
 Note that the next state is decided by the current state *alone*,
 it does not matter how the current state is attained.
@@ -73,7 +73,7 @@ is a Bernoulli distribution with the parameter 0.5.
 This is an extremely simple case, where the next state
 is not even dependent on the current state.
 
-The state space could be continuous as well. 
+The state space of a Markov chain could be continuous as well. 
 Consider an example with the conditional probability distribution at $t+1$ as:
 $Pr(X_{t+1} | X_t = x_t) = N(x_t, 1)$. 
 Here the state space is real numbers, 
