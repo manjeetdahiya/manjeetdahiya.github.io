@@ -141,7 +141,8 @@ $$
 
 Stationary distribution are those probability vectors ($\nu_s$) 
 that remains the same after multiplication with 
-the transition distribution.
+the transition distribution. Another name of stationary distribution is equilibrium distribution,
+i.e., Markov chain is in an equilibrium.
 
 $$
 \nu_s P = \nu_s
@@ -167,8 +168,8 @@ $$
 
 #### Absorbing Markov chains
 
-A state $i$ of a Markov chain is called *absorbing state* if $p_{ii} = 1$, i.e., once the state is
-attained, the state never changes.
+A state $i$ of a Markov chain is called an *absorbing state* if $p_{ii} = 1$, i.e., once the state is
+attained, the state never changes. In other words, the state keeps changing to itself.
 
 A Markov chain is called *absorbing Markov chain* if an absorbing state can be reached, 
 in one or more steps, from all the states of the Markov chain.
