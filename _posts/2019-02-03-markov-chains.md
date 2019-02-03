@@ -2,18 +2,18 @@
 layout: post
 title: Markov Chains
 ---
-Markov chains is an interesting concept with applications in multiple disciplines.
+Markov chains is an interesting concept with applications in several disciplines.
 Markov chains are stochastic processes with a specific property called Markov property.
-This post presents stochastic processes and Markov chains with examples. 
+This post presents stochastic processes and Markov chains with examples.
 It describes the Markov property and various related characteristics of Markov chains
-like transition distribution, stationary distribution, 
+like transition distribution, stationary distribution,
 absorbing states and absorbing Markov chains.
 
 ### Stochastic process
 A stochastic process describes a random phenomenon over time.
-Random variables model the random phenomenon of a stochastic process, 
+Random variables are used to model the random phenomenon of a stochastic process, 
 thus, a stochastic process is a sequence of random variables indexed by time.
-Since these random variables of a sequence model the same phenomenon, i.e., the state of
+Since these random variables the same phenomenon, i.e., the state of
 the phenomenon, therefore,
 they share the domain (i.e., the state space) and the range.
 The time index could be discrete or continuous, resulting in discrete-time
@@ -126,17 +126,21 @@ $P^m$ will give the transition matrix of $m$ steps. In other words, $P^m$ repres
 going from one state to another in exactly $m$ steps.
 
 #### Stationary distributions
-At any point of time, the process could possibly in any one of the $k = |S|$ states with some probability.
+At any point of time, the process could possibly in any one of the $k = |S|$ 
+states with some probability.
 We can define a probability vector or probability distribution 
-representing the probability of being in each state. Let it be a matrix $\nu$ of dimension $1 X k$.
-Further, we can represent the probability vector at time $t+1$ in terms of probability vector at $t$
+representing the probability of being in each state.
+Let it be a matrix $\nu$ of dimension $1 X k$.
+Further, we can represent the probability vector at time $t+1$ 
+in terms of probability vector at $t$
 and transition matrix:
 
 $$
 \nu_{t+1} = \nu_t P
 $$
 
-Stationary distribution are those probability vectors ($\nu_s$) that remains the same after multiplication with 
+Stationary distribution are those probability vectors ($\nu_s$) 
+that remains the same after multiplication with 
 the transition distribution.
 
 $$
