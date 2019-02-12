@@ -53,5 +53,5 @@ continuous random variables.
 Note that random variable is just an abstraction. It allows Mathematicians to forget about
 the underlying stochastic phenomenon, and enable them to build higher order theories
 on top of it.
-For example, a number of stochastic phenomenon may take the same probability distribution, and
+For example, a number of different stochastic phenomena may take the same probability distribution, and
 the abstraction of random variable allows us to consider them one.
