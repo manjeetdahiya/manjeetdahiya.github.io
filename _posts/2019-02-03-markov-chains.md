@@ -60,6 +60,13 @@ Pr(X_1=x_1,X_1=x_2, ..., X_t=x_t) = \\
 Pr(X_1=x_1) Pr(X_2=x_2|X_1=x_1) ... Pr(X_t=x_t|X_{t-1}=x_{t-1})
 $$
 
+Note: One might say that $X_3$ does depend on $X_1$ because $X_2$ depends on $X_1$, 
+and it is indeed correct.
+However, the assumption is that $X_3$ depends *only* on $X_2$. 
+Another way to understand the Markov property is that
+$X_3$ is independent of $X_1$ given $X_2$, that is:
+$P(X_3 \| X_2, X_1) = P(X_3 \| X_2)$.
+
 #### Examples
 The game of snakes and ladder is an example of Markov chains. 
 A player can be in one of the hundred states corresponding to the hundred positions on the board.
