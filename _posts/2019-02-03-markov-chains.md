@@ -61,11 +61,15 @@ Pr(X_1=x_1) Pr(X_2=x_2|X_1=x_1) ... Pr(X_t=x_t|X_{t-1}=x_{t-1})
 $$
 
 Note: One might say that $X_3$ does depend on $X_1$ because $X_2$ depends on $X_1$, 
-and it is indeed correct.
+and it is indeed correct. $X_3$ does depend on $X_1$.
 However, the assumption is that $X_3$ depends *only* on $X_2$. 
+That is, given $X_2$, $X_3$ does not depend on $X_1$.
 Another way to understand the Markov property is that
 $X_3$ is independent of $X_1$ given $X_2$, that is:
 $P(X_3 \| X_2, X_1) = P(X_3 \| X_2)$.
+
+To summarize, Markov property states that the next state does not depend on the past given
+the present.
 
 #### Examples
 The game of snakes and ladder is an example of Markov chains. 
