@@ -135,6 +135,6 @@ transition matrix of size $(R_A+R_B+1) X (R_A+R_B+1)$, and then computing the li
 
 ### Conclusion
 
-Markov chains can be used to solve the problems that obeys the Markov property.
+Markov chains can be used to solve the problems that obey the Markov property.
 One has to just model the problem as a Markov chain and the rest comes for free.
 One can then reason in terms the existing results on Markov chains.
