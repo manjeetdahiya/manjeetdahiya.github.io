@@ -25,11 +25,11 @@ We need to find the probability of winning of a player.
 
 ### Markov chain modeling
 
-Let us simplify the problem by setting small, concrete values for
+Let us simplify the problem by setting small, concrete values of
 $R_A$ and $R_B$ to 1 and 2 respectively.
 At each step of the game, $R_A$ can increment or decrement by one, with equal
 probabilities.
-Since the total money in game is 3 there are four possibilities
+Since the total money in game is 3, there are four possibilities
 for $R_A$ in the game: $$\{0, 1, 2, 3\}$$. The game ends when $R_A$
 is either 0 (A loses all the money) or 3 (B loses all the money).
 The game continues for the other two states.
@@ -42,8 +42,9 @@ the state of the game,
 as the total money in the game is constant, i.e, $R_A + R_B = 3$.
 The following figure shows the state transition diagram.
 A node denotes the money that player A has, i.e., $R_A$.
-When the game is at state 2, player A can lose to go to state 1 or
-she may win to go to state 3. The probability at states 1 and 2 for winning and losing the current step is determined by tossing a fair coin and is 0.5 each.
+When the game is in state 2, player A can lose to go to state 1 or
+she may win to go to state 3. The probability in states 1 and 2
+for winning and losing the current step is determined by tossing a fair coin and is 0.5 each.
 The states 0 and 3 indicate termination of the game.
 Once these states are attained there is no way going to another state.
 
@@ -51,7 +52,7 @@ Once these states are attained there is no way going to another state.
 
 
 The game follows the Markov property. The conditional probability of
-the next move is dependent independent of the previous states.
+the next move is independent of the previous states.
 Moreover, the Markov chain described by the transitions is an absorbing Markov chain.
 States 0 and 3 are absorbing states, and these absorbing states can be reached
 by all the other states in one or more steps.
@@ -130,7 +131,7 @@ A game between A and B, with starting money 1 and 2 respectively, has 1/3 probab
 On the other hand, player B, who starts with more money, has 2/3 (higher) probability of winning.
 For a general case, we can prove that the probability that A wins is $R_A/(R_A+R_B)$.
 In other words, it is better to start with more money than the opponent.
-Note that the general can can be solved by the similar argument. It would require constructing a
+Note that the general can can be solved by a similar argument. It would require constructing a
 transition matrix of size $(R_A+R_B+1) X (R_A+R_B+1)$, and then computing the limiting distribution.
 
 ### Conclusion
