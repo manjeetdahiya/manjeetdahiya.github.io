@@ -61,3 +61,11 @@ lies below the curve. Similarly, we can also define strictly concave functions.
   function would map them to same value. Moreover, these would also be the global minimums.
 * Iterative algorithms like Gradient descent would always approximate the global minimum,
   as long as other requirements of Gradient descent are met, e.g., existence of gradient.
+* All linear functions are both convex and concave. Requirements of convex and as well as
+  concave functions are met for linear functions. Though, they are neither strictly convex
+  nor strictly concave.
+* If a function is of single variable and its twice derivative exists,
+  then it is greater than or equal to zero for the whole domain for concave functions.
+  Symmetrically, for concave functions, its twice derivative is less than or equal to zero for all
+  values in domain. For the strict counterparts, equality with zero is omitted.
+
