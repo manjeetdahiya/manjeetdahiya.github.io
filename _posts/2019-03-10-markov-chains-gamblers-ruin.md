@@ -4,7 +4,7 @@ title: Markov Chains Modeling for Gambler's Ruin Problem
 ---
 
 This post presents an application of
-[Markov chains and some related ideas]({{ site.baseurl }}{% post_url 2019-02-03-markov-chains %}).
+[Markov chains and related ideas]({{ site.baseurl }}{% post_url 2019-02-03-markov-chains %}).
 This post models the Gambler's Ruin Problem as a Markov chain, and presents its
 solution.
 
@@ -61,19 +61,19 @@ This implies that the game will reach a steady state.
 The transition distribution for the game is the following:
 
 $$
-P = 
+P =
 \begin{bmatrix}
 p_{00} & p_{01} & p_{02} & p_{03} \\
 p_{10} & p_{11} & p_{12} & p_{13} \\
 p_{20} & p_{21} & p_{22} & p_{23} \\
-p_{30} & p_{31} & p_{32} & p_{33} 
+p_{30} & p_{31} & p_{32} & p_{33}
 \end{bmatrix}
 =
-\begin{bmatrix} 
+\begin{bmatrix}
 1 & 0 & 0 & 0 \\
 0.5 & 0 & 0.5 & 0 \\
-0 & 0.5 & 0 & 0.5 \\ 
-0 & 0 & 0 & 1 
+0 & 0.5 & 0 & 0.5 \\
+0 & 0 & 0 & 1
 \end{bmatrix}
 $$
 
@@ -84,7 +84,7 @@ $$
 Let $\nu$ denote the probability distribution of states, i.e., probability of
 the game being in any particular state. It is a 1x4 matrix, representing the probability
 of each state.
-If $\nu_t$ is the probability distribution of states at time $t$, then 
+If $\nu_t$ is the probability distribution of states at time $t$, then
 $\nu_{t+1}$ can be computed by the following equation:
 
 $$

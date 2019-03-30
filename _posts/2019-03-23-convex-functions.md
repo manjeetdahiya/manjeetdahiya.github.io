@@ -36,7 +36,7 @@ This should hold for the whole segment and for all such possible segments.
 We can simplify the equation by substituting
 $x_i$ with $t x_1 + (1-t) x_2$ for $t \in [0, 1]$.
 For $t=0$ and $t=1$, the value of $x_i$ is $x_2$ and $x_1$ respectively.
-For other values of $t \in (0, 1)$ , $x_i$ ranges in $(x_1, x_2)$.
+For the other values of $t \in (0, 1)$ , $x_i$ ranges in $(x_1, x_2)$.
 
 $$
 \forall x_1 \neq x_2 \in X, \forall t \in [0, 0]:\ \  f(t x_1 + (1-t) x_2) \le t f(x_1) + (1-t) f(x_2) \\
