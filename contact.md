@@ -3,8 +3,6 @@ layout: page
 title: Contact
 ---
 
-Email: firstname[dahiya]@gmail.com
-
-LinkedIn: [linkedin.com/in/manjeetdahiya](https://www.linkedin.com/in/manjeetdahiya)
-
-Facebook: [facebook.com/manjeetdahiya](https://www.facebook.com/manjeetdahiya)
+Manjeet Dahiya can be reached at [firstname]dahiya@gmail.com, [LinkedIn](https://www.linkedin.com/in/manjeetdahiya)
+or
+[Facebook](https://www.facebook.com/manjeetdahiya).

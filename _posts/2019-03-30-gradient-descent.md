@@ -126,7 +126,7 @@ print(gradient_descent(grad_fx))
 ```
 
 It is straightforward to extend this implementation for multi-dimensional functions.
-[Here is the link to an implementation].
+<!-- [Here is the link to an implementation]. -->
 
 
 ### Significance of the step size (learning rate)
@@ -158,7 +158,8 @@ to a same range.
 ### Limitations
 
 Gradient descent is computationally suitable for machine learning optimization goals.
-For example, the closed form solution of linear regression requires matrix inversion of size $D X D$ where $D$ is the number of features/dimensions.
+For example, the closed form solution of linear regression requires matrix inversion
+of size $D X D$ where $D$ is the number of features/dimensions.
 The complexity of this solution is $O(D^3)$, which is huge.
 In practice, gradient descent converges much faster.
 Moreover, its variants like stochastic gradient descent (SGD) are quite suitable for machine learning,
@@ -166,6 +167,10 @@ where the data could be huge and SGD allows to work with the batches of the data
 
 However, gradient descent comes with problems of its own:
 
-* For non-convex functions gradient descent doesn't guarantee a the global minimum. Depending upon the initialization and the value of $\eta$ it is quite possible the it results in a local minimum.
-* Gradient descent requires the first derivative of the given function. What if the first derivative does not exit for the objective function?
-* Step size tuning is a problem. Ideally, we do not want to worry about oscillations, divergence and slow convergence. There are variants of gradient descent that help resolve this issue. I will cover those in the future posts.
+* For non-convex functions gradient descent doesn't guarantee a the global minimum.
+  Depending upon the initialization and the value of $\eta$ it is quite possible
+  the it results in an unwanted local minimum, saddle point or inflection point.
+* Gradient descent requires the first derivative of the given function.
+  What if the first derivative does not exit for the objective function?
+* Step size tuning is a problem. Ideally, we do not want to worry about oscillations, divergence and slow convergence.
+  There are variants of gradient descent that help resolve this issue. I will cover those in the future posts.
