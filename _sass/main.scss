@@ -325,7 +325,7 @@ tbody tr:nth-child(odd) th {
         margin-left: 0.8rem;
       }
     }
-   
+
   }
 }
 
@@ -363,6 +363,18 @@ tbody tr:nth-child(odd) th {
     margin-bottom: 1rem;
     font-size: .75rem;
     text-transform: uppercase;
+  }
+  &-post-more {
+    a {
+      color: #aaa;
+      font-size: .8rem;
+      &:hover,
+      &:focus {
+        color: #333;
+        text-decoration: none;
+      }
+    }
+    margin-bottom: 1rem;
   }
 }
 

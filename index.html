@@ -1,6 +1,23 @@
 ---
 layout: page
 ---
+Welcome to the blog page of Manjeet Dahiya!
+Manjeet Dahiya is a Sr. Data Scientist with Delhivery.
+He has earlier worked with Agilent Technologies and United Online (Juno Online).
+Manjeet obtained his PhD in computer science from IIT Delhi, and BTech in electrical engineering from IIT Kanpur.
+
+<br>
+<br>
+
+Manjeet writes articles/notes on
+data science, machine learning and AI, probability and
+statistics, programming languages, and computer science in general.
+
+Following are a few recent articles. For a complete list, checkout all
+<a href='/posts'>posts</a>.
+
+<br>
+<br>
 
 <p style="color: #aaa; font-weight: 300; font-size: 1.05rem">Recent posts:</p>
 
@@ -8,7 +25,7 @@ layout: page
 {% if site.posts.size == 0 %}
   <h3>No post found</h3>
 {% else %}
-{% for post in site.posts %}
+{% for post in site.posts limit: 3%}
   <div class="list-item">
     <h3 class="list-post-title">
       <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
@@ -16,7 +33,16 @@ layout: page
     <div class="list-post-date">
       <time>{{ post.date | date_to_string }}</time>
     </div>
+    {{ post.excerpt }}
+    <div class="list-post-more">
+      {% if post.excerpt != post.content %}
+      <a href="{{ site.baseurl }}{{ post.url }}">Continue reading &#8594;</a>
+      {% endif %}
+    </div>
+
   </div>
 {% endfor %}
 {% endif %}
+
+<!-- <p style="color: #aaa; font-weight: 300; font-size: 1.05rem">More posts >> </p> -->
 </div>

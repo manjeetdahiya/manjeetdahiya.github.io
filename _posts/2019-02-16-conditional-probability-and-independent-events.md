@@ -2,10 +2,11 @@
 layout: post
 title: Conditional Probability and Independent Events
 ---
+This post presents the definition of conditional probability and independent events.
 
 ### Conditional probability
 
-Given two events $A$ and $B$, the probability of occurrence of event $A$ after learning the occurrence 
+Given two events $A$ and $B$, the probability of occurrence of event $A$ after learning the occurrence
 of event $B$ is called *conditional probability* of $A$ conditioned on the event $B$.
 It is denoted as $Pr(A\|B)$ and defined as follows:
 
@@ -18,7 +19,7 @@ Also note that $Pr(A\|B)$ is *just a definition*; it is simply a term that is eq
 
 Consider an example of rolling of an unbiased dice.
 If we want to know the probability of occurrence of 2
-given that an even number has been rolled, then we are asking the conditional probability of 
+given that an even number has been rolled, then we are asking the conditional probability of
 number 2 conditioned on the event that an even number has been rolled.
 To complete the example, $$B = \{2, 4, 6\}$$ (event that an even number is rolled)
 and $$A = \{2\}$$ (event that 2 is rolled) and we want to know $Pr(A\|B)$.
@@ -34,8 +35,8 @@ $$
 Pr(A|B) = |A \cap B|/|B|
 $$
 
-$\|A \cap B\|$ represents the number of outcomes where $A$ and $B$ both occur, 
-and $\|B\|$ is the number of outcomes where $B$ occurs. 
+$\|A \cap B\|$ represents the number of outcomes where $A$ and $B$ both occur,
+and $\|B\|$ is the number of outcomes where $B$ occurs.
 The dice example example can also be computed using this formula, as the outcomes are
 equi-probable.
 
@@ -50,7 +51,7 @@ $$
 Given $Pr(A) \not = 0$ and $Pr(B) \not = 0$.
 
 ### Law of total probability
-Suppose events $B_1, ..., B_k$ form a partition of the sample space $S$, 
+Suppose events $B_1, ..., B_k$ form a partition of the sample space $S$,
 then for every event $A$ in the sample space $S$:
 
 $$
@@ -62,14 +63,14 @@ Conditional probability leads us to the notion of independence.
 Two events $A$ and $B$ are said to be independent if the occurrence of
 one does not influence the probability of occurrence of the other, and vice versa.
 In other words, if the conditional probability of $A$ conditioned on
-$B$ is same as probability of $A$, and the other way too, then these two events 
+$B$ is same as probability of $A$, and the other way too, then these two events
 are independent. Formally, $A$ and $B$ are independent iff:
 
 $$
 Pr(A|B) = Pr(A)
 $$
 
-However, defining independence using conditional probability has issues, 
+However, defining independence using conditional probability has issues,
 as the $Pr(A \| B)$ in itself is undefined when $Pr(B) = 0$.
 To cover all the cases following is a better definition of
 independent events:
