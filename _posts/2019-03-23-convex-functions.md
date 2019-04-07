@@ -7,10 +7,20 @@ Convex functions is an important and fundamental class of objective functions
 in the study of mathematical optimization.
 Their properties make them the simplest, yet non-trivial, objective functions
 for optimization.
-
 Convex functions are those functions whose local minima is also a global minima.
 Furthermore, strictly convex functions have at most one local minima, which is also
 the global minima.
+
+Given that most of the machine learning algorithms
+end up optimizing some cost function (i.e., objective function),
+knowing about convexity would help understanding the properties of these algorithms.
+For example, support vector machines (SVMs),
+linear regression,
+ridge regression, and
+lasso regression generate the convex cost functions, and
+maximum likelihood estimation of logistic regression generates a concave cost function.
+On the other hand, neural network based models deal with non-convex optimization (i.e., neither convex nor concave).
+
 This post presents the definition and properties of convex functions.
 
 ### Convexity
