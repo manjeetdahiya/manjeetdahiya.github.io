@@ -58,7 +58,7 @@ where the points are
 $(\texttt{q-quantile}_A(i/n), \texttt{q-quantile}_B(i/n))$ for $i \in [0, n) \land i \in \mathbb{Z}$.
 
 The idea is that if the distributions are identical, then the quantiles should
-be approximately equal. For example, in case of quartiles,
+be approximately equal. For example, in the case of quartiles,
 the first quartile should
-be roughly same for both the distributions, and similarly, the other quartiles.
+be roughly the same for both the distributions, and similarly, the other quartiles.
 Thus, resulting in the straight line $y = x$.
