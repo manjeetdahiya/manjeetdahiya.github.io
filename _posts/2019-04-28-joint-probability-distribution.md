@@ -83,7 +83,9 @@ Here $f(x, y)$ is the joint _pf_/_pdf_ and $f_Y(y)$ is the marginal _pf_/_pdf_ o
 The equation is commonly written as follows ($\land$ is replaced by comma, and events have been omitted).
 
 $$Pr(X | Y) = Pr(X, Y)/ Pr(Y)$$  
+
 equivalent to
+
 $$Pr(X, Y) = Pr(X | Y) Pr(Y)$$
 
 This is also called the chain rule of probability for random variables. For three random variables, it is written as:
