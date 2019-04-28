@@ -76,7 +76,7 @@ the other random variable.
 
 Probability of event $x$ of $X$ conditioned on event $y$ of $Y$ is written as:
 
-$Pr(X = x | Y = y) = Pr(X = x \land Y = y)/ Pr(Y = y) = f(x, y)/f_Y(y)$
+$$Pr(X = x | Y = y) = Pr(X = x \land Y = y)/ Pr(Y = y) = f(x, y)/f_Y(y)$$
 
 Here $f(x, y)$ is the joint _pf_/_pdf_ and $f_Y(y)$ is the marginal _pf_/_pdf_ of $Y$.
 
