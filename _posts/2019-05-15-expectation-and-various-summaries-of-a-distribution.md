@@ -53,11 +53,16 @@ Standard deviation ($\sigma$) is defined as the positive square root of variance
 It enables comparison with the random variable 
 as it has the same units as the random variable.
 
+
 ##### Theorem
 * $Var(X) = E[(X - \mu)^2] = E(X^2) - [E(X)]^2$
 * If $Y = aX +b$, where $a$ and $b$ are constants, the $Var(Y) = a^2 Var(X)$.
 * If $X_1$ and $X_2$ are two *independent* random variables, then the following holds:
   $Var(X_1 + X_2) = Var(X_1) + Var(X_2)$.
+* If $X_1$ and $X_2$ are two random variables, then the following holds:
+  $Var(X_1 + X_2) = Var(X_1) + Var(X_2) + Cov(X_1,X_2) + Cov(X_2, X_1)$. $Cov$ is defined next.
+* In general, $Var(X_1+X_2+...+X_n)$ is given by the sum of all elements of
+  the covariance matrix (defined later).
 
 ### Covariance
 When dealing with a joint distribution of two random variables, covariance
@@ -121,6 +126,11 @@ CovMat(\textbf{X}) =
 $$
 
 Where $\sigma_{ij} = Cov(X_i, X_j)$. 
+
+Another way to state:
+$CovMat(X) = E[(X - \mu)(X - \mu)^T]$
+
+
 
 ##### Properties
 * Since $\sigma_{ij} = Cov(X_i, X_j) = Var(X_i)$ for $i = j$, 
