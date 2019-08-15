@@ -19,7 +19,7 @@ E(X) = \sum \limits_{x \in domain(X)} x f(x)
 $
 
 Continuous: $
-E(X) = \int_{-\infty}^{\infty} x f(x)
+E(X) = \int_{-\infty}^{\infty} x f(x) dx
 $
 
 Where $f(x)$ if _pf_ or _pdf_ or the random variable $X$.
