@@ -169,7 +169,7 @@ However, gradient descent comes with problems of its own:
 
 * For non-convex functions gradient descent doesn't guarantee a the global minimum.
   Depending upon the initialization and the value of $\eta$ it is quite possible
-  the it results in an unwanted local minimum, saddle point or inflection point.
+  that it results in an unwanted local minimum, saddle point or inflection point.
 * Gradient descent requires the first derivative of the given function.
   What if the first derivative does not exit for the objective function?
 * Step size tuning is a problem. Ideally, we do not want to worry about oscillations, divergence and slow convergence.
