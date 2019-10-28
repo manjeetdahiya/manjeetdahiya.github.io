@@ -4,18 +4,22 @@ title: Neural Network Backpropagation
 ---
 
 The learning process in machine learning involve determining the weights
-of a model that minimizes a loss function. 
+of a model that minimize a loss function.
 Usually, gradient based techniques are used to learn the weights.
+Gradient based techniques rely on the computation of gradients of the loss function
+w.r.t. the weights.
 Backpropagation is a widely used algorithm to efficiently
-compute gradients of the loss function with respect to the weights of the
-model.
+compute these gradients.
 
 Backpropagation at a high level is simply a recursive application of
 the chain rule of calculus while avoiding repetitive computations.
 Specifically, it is a dynamic programming based solution for computing
 the gradients involving the chain rule of calculus.
 
-This post presents the mathematical formulation of backpropagation in neural networks. It first presents the notations and the forward equations of neural networks and then the backpropagation equations.
+This post presents the mathematical formulation of backpropagation 
+for neural networks.
+It presents the notation of neural networks,
+the forward equations and the backpropagation equations.
 
 
 ### Notation
@@ -118,6 +122,11 @@ For this examples the forward equations for first unit of layer 0 are:
 
 The backprop equations for computing $\delta_1^0$ are:
 
-* $\frac{\partial L}{\partial a_1^0} = \delta_1^{1} W_{11}^{1} + \delta_2^{1} W_{12}^{1}$   --- $\delta^1$ to $a_1^0$
-* $\delta_1^0 = \frac{\partial g^0(z_1^0)}{\partial z_1^0} (\delta_1^{1} W_{11}^{1} + \delta_2^{1} W_{12}^{1})$ --- $a_1^0$ to $z_1^0$ 
+* $\frac{\partial L}{\partial a_1^0} = \delta_1^{1} W_{11}^{1} + \delta_2^{1} W_{12}^{1}$   : backprop from $\delta^1$ to $a_1^0$
+* $\delta_1^0 = \frac{\partial g^0(z_1^0)}{\partial z_1^0} (\delta_1^{1} W_{11}^{1} + \delta_2^{1} W_{12}^{1})$ : backprop from $a_1^0$ to $z_1^0$ 
 
+The equations for computing derivatives w.r.t. weights are:
+
+$\frac{\partial L}{\partial W_{11}^1} = \frac{\partial z_1^1}{\partial W_{11}^1} \frac{\partial L}{\partial z_1^1}$ = $a_1^{0} \delta_1^1$
+
+$\frac{\partial L}{\partial b_1^1} = \frac{\partial z_1^1}{\partial b_1^1} \frac{\partial L}{\partial z_1^1}$ = $1 * \delta_1^1$ =  $\delta_1^1$
