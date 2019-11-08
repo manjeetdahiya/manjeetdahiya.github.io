@@ -130,3 +130,11 @@ The equations for computing derivatives w.r.t. weights are:
 $\frac{\partial L}{\partial W_{11}^1} = \frac{\partial z_1^1}{\partial W_{11}^1} \frac{\partial L}{\partial z_1^1}$ = $a_1^{0} \delta_1^1$
 
 $\frac{\partial L}{\partial b_1^1} = \frac{\partial z_1^1}{\partial b_1^1} \frac{\partial L}{\partial z_1^1}$ = $1 * \delta_1^1$ =  $\delta_1^1$
+
+
+### Appendix: Chain Rule of Calculus (Multivariate)
+
+$L$ is a function of $a$ and $b$, which are function of $x$. 
+The derivative of $L$ w.r.t. $x$ can be computed as follows:
+
+$\frac{d L(a, b)}{d x} = \frac{\partial L(a, b)}{\partial a} \frac{da}{dx} + \frac{\partial L(a, b)}{\partial b} \frac{db}{dx}$
