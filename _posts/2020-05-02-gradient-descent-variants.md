@@ -3,7 +3,7 @@ layout: post
 title: Gradient Descent Variants
 ---
 
-This post presents variants of gradients descents.
+This post presents variants of gradients descent algorithm.
 
 ### Standard gradient descent
 
