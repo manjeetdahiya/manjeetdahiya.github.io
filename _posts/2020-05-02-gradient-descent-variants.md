@@ -3,11 +3,12 @@ layout: post
 title: Gradient Descent Variants
 ---
 
+This post presents variants of gradients descents.
+
 ### Standard gradient descent
 
 Standard gradient descent is also called batch gradient descent.
-It updates the parameters using the complete training 
-dataset in one go.
+It updates the parameters using the complete training dataset in one go.
 It computes the gradient by using all the training examples and then
 updates the parameters (called back propagation in case of deep learning). 
 This constitutes an epoch of the training.
