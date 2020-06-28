@@ -16,13 +16,13 @@ This constitutes an epoch of the training.
 Let us formally describe the same.
 Given a loss function $L$ and the ith training example $X_i$ 
 (input variables/features),
-the loss is written as $\sum \limits_{i=0}^m L(X_i)$.
+the loss is written as $\dfrac{1}{m} \sum \limits_{i=0}^m L(X_i)$.
 Here $m$ is the number of training samples.
 
 The gradient descent parameter update equation is:
 
 $$
-W_t = W_{t-1} - \eta \nabla (\sum \limits_{i=0}^m L(X_i))
+W_t = W_{t-1} - \eta \nabla (\dfrac{1}{m}\sum \limits_{i=0}^m L(X_i))
 $$
 
 * $W_t$ is the parameters at epoch $t$.
@@ -41,7 +41,7 @@ $$
 ### MiniBatch gradient descent
 
 $$
-W_t = W_{t-1} - \eta \nabla (\sum \limits_{i=0}^b L(X_i))
+W_t = W_{t-1} - \eta \nabla (\dfrac{1}{b}\sum \limits_{i=0}^b L(X_i))
 $$
 
 * Best of both worlds.
