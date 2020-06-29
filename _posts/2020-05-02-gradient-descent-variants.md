@@ -38,7 +38,7 @@ $$
 * The number of changes in parameters per epoch is m.
 * Suitable for online training.
 
-### MiniBatch gradient descent
+### Mini-batch gradient descent
 
 $$
 W_t = W_{t-1} - \eta \nabla (\dfrac{1}{b}\sum \limits_{i=0}^b L(X_i))
