@@ -5,8 +5,8 @@ title: Gradient Descent Extensions
 
 Goal of extensions of gradient descents
 such as Momentum, RMSProp and Adam
-is to speedup gradient descent and address the challenges
-faced by gradient descent algorithm. This post presents the challenges
+is to speedup the gradient descent algorithm and address the challenges
+faced by it. This post presents the challenges
 and optimizations to handle the same.
 
 ### Challenges of gradient descent
