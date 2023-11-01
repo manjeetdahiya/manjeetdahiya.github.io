@@ -3,7 +3,7 @@ layout: page
 title: About
 ---
 
-<img src="/assets/manjeetdahiya.jpg" alt="Manjeet Dahiya" style="float:right;margin-right:20px;margin-left:10px" width="160">
+<img src="/assets/manjeetdahiya.jpg" alt="Manjeet Dahiya" style="float:right;margin-right:10px;margin-left:10px" width="190">
 
 Manjeet Dahiya is the Head of Machine Learning and Data Sciences at Airtel Digital Limited, 
 where he is leading various AI products related to Wynk Music and Xstream OTT platforms.
