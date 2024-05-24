@@ -1,0 +1,16 @@
+{
+  "name": "CCTV",
+  "short_name": "CCTV",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#fff",
+  "description": "CCTV",
+
+  "icons": [
+    {
+      "src": "cctv.png",
+      "sizes": "48x48",
+      "type": "image/png"
+    }
+    ]
+}
