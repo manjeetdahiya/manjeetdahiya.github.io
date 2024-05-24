@@ -1,7 +1,7 @@
 {
   "name": "CCTV",
   "short_name": "CCTV",
-  "start_url": ".",
+  "start_url": "/cctv.html",
   "display": "standalone",
   "background_color": "#fff",
   "description": "CCTV",
